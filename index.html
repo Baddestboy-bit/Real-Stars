@@ -1,0 +1,219 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Real Stars Salon - Where Style Meets Elegance">
+    <title>Real Stars Salon</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="sticky-nav">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="ki.jpeg" alt="Real Stars Salon Logo" class="logo-img">
+                <span>Real Stars Salon</span>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#booking" class="cta-nav">Book Now</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header id="home" class="hero section">
+        <div class="hero-overlay">
+            <h1>Real Stars Salon</h1>
+            <p>Where Style Meets Elegance</p>
+            <a href="#booking" class="cta-button pulse">Book Appointment</a>
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section id="services" class="service section">
+        <h2>Our Services</h2>
+        <div class="services-grid">
+            <!-- Service cards will be dynamically added here -->
+            <div class="service-card">
+                <img src="la.jpeg" alt="Bridal Hair">
+                <h3>Bridal Hair</h3>
+                <p>The perfect finishing touch, reflecting her unique and radiant beauty on your special day.</p>
+                <p class="price">Starting at $150</p>
+                <p class="duration">Duration: 2-3 hours</p>
+                <a href="#booking" class="learn-more">Learn More</a>
+            </div>
+            <!-- Haircut -->
+            <div class="service-card">
+                <img src="io.jpeg" alt="Haircut">
+                <h3>Haircut</h3>
+                <p>Transform your look with our expert haircuts tailored to your style.</p>
+                <p class="price">Starting at $50</p>
+                <p class="duration">Duration: 1 hour</p>
+                <a href="#booking" class="learn-more">Learn More</a>
+            </div>
+            <!-- Makeup -->
+            <div class="service-card">
+                <img src="ui.jpeg" alt="Makeup">
+                <h3>Makeup</h3>
+                <p>A touch of artistry, a dash of confidence, and a celebration of your unique beauty.</p>
+                <p class="price">Starting at $80</p>
+                <p class="duration">Duration: 1-2 hours</p>
+                <a href="#booking" class="learn-more">Learn More</a>
+            </div>
+       
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="about-container">
+            <div class="about-content">
+                <h2>About Us</h2>
+                <p class="lead">Creating beauty since 2010</p>
+                <p>Our team of certified professionals delivers exceptional results using premium products to the Kampala community with passion and creativity. Whether it's a bridal makeover, a fresh haircut, 
+                    or a rejuvenating spa treatment, we are here to make your beauty dreams come true
+                </p>
+                <br>
+                <a href="#services" class="cta-button">View Services</a>
+            </div>
+            <div class="about-image">
+                <img src="d8.jpg" alt="Salon Interior">
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery section">
+        <h2>Our Work</h2>
+        <div class="gallery-grid">
+            <img src="iv.jpg" alt="Gallery Image 1">
+            <img src="2.jpeg" alt="Gallery Image 2">
+            <img src="sn.jpg" alt="Gallery Image 3">
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section">
+        <h2>Client Stories</h2>
+        <div class="testimonial-carousel">
+           
+                <div class="testimonial-card">
+                    <p>"The best salon experience I've ever had! Highly recommend!"</p>
+                    <h4>Jane Doe</h4>
+                    <div class="rating">★★★★★</div>
+                </div>
+                <div class="testimonial-card">
+                    <p>"Amazing stylists and a relaxing atmosphere. Love it!"</p>
+                    <h4>John Mathew</h4>
+                    <div class="rating">★★★★★</div>
+                </div>
+                <div class="testimonial-card">
+                    <p>"My hair has never looked better. Thank you, Real Stars!"</p>
+                    <h4>Emily Johnson</h4>
+                    <div class="rating">★★★★★</div>
+                </div>
+       </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="contact-container">
+
+                    <form class="contact-form">
+                        <h3>Send Message</h3>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="cta-button">Send Message</button>
+                    </form>
+                </div>
+            </section>
+    <!-- Booking Section -->
+    <section id="booking" class="booking section">
+        <div class="booking-container">
+            <h2>Book Your Session</h2>
+            <form class="booking-form">
+                <div class="form-group">
+                    <input type="text" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <select required>
+                        <option value="">Select Service</option>
+                        <option value="bridal">Bridal Package</option>
+                        <option value="haircut">Haircut</option>
+                        <option value="makeup">Makeup</option>
+                        <option value="facials">Facials</option>
+                        <option value="styling">Styling</option>
+                        <option value="hair removal">Hair removal</option>
+                        <option value="manicures">Manicures</option>
+                        <option value="pedicures">Pedicures</option>
+                        <option value="gel nails">Gel nails</option>
+                        <option value="hair straightening">Hair straightening</option>
+                        <option value="conditioning and shampooing">Conditioning and shampooing</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <input type="date" required>
+                </div>
+                <button type="submit" class="cta-button">Book Now</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+     <div class="footer-container">
+            <div class="footer-section">
+                <h3>Contact Info</h3>
+                <p><a href="https://maps.app.goo.gl/7H8eqXLAimX7M2Hs7" target="_blank"> Kerezia zone, Kampala, Uganda</a></p>
+                <p><i class="fas fa-phone"></i> +256 705 792 196</p>
+                <p><i class="fas fa-envelope"></i> realstarssalon@gmail.com</p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="https://facebook.com/realStarsSalon" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://instagram.com/realStarsSalon" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://twitter.com/realStarsSalon" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://wa.me/256705792196" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+       
+        <div class="footer-bottom">
+            <p>&copy; 2025 Real Stars Salon. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
